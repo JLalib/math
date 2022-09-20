@@ -46,8 +46,8 @@ function btnProducto() {
 }
 
 function nuevoProducto() {
-    //generamos dos numeros aletarios entre 0 y 9
-    n1 = parseInt(Math.random() * 10);
+    //generamos dos numeros aletarios entre 0 y 99
+    n1 = parseInt(Math.random() * 100);
     n2 = parseInt(Math.random() * 10);
     //asignamos los numeros a las etiquetas
     num1.innerHTML = n1;
