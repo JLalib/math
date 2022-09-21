@@ -23,8 +23,8 @@ function btnSumar() {
 
 function nuevaSuma() {
     //generamos dos numeros aletarios entre 0 y 9
-    n1 = parseInt(Math.random() * 10);
-    n2 = parseInt(Math.random() * 10);
+    n1 = parseInt(Math.random() * 100);
+    n2 = parseInt(Math.random() * 100);
     //asignamos los numeros a las etiquetas
     num1.innerHTML = n1;
     num2.innerHTML = n2;
@@ -70,9 +70,9 @@ function btnResta() {
 }
 
 function nuevaResta() {
-    //generamos dun numeros aletarios entre 5 y 10
+    //generamos dun numeros aletarios entre 5 y 100
     n1 = parseInt(Math.random() * 5 + 5);
-    //generamos un numero aleatorio entre 0 y 5
+    //generamos un numero aleatorio entre 0 y 50
     n2 = parseInt(Math.random() * 5);
     //asignamos los numeros a las etiquetas
     num1.innerHTML = n1;
@@ -134,9 +134,9 @@ function corregir() {
     var i = document.createElement("i");
     //controlo si coincide lo que el usuario respondio con la solucion
     if (respuesta_usuario.value == solucion) {
-        i.className = "fa-regular fa-face-grin";
+        i.className = "fa-solid fa-check";
     } else {
-        i.className = "fa-regular fa-face-frown";
+        i.className = "fa-solid fa-xmark";
     }
 
     //agrego el elemento al contenedor de las correciones

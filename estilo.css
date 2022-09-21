@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 * {
     box-sizing: border-box;
-    font-family: 'Patrick Hand';
+    font-family: 'Montserrat';
 }
 
 body {
-    background-color: slategray;
+    background-color: #94a0ac;
 }
 
 .container {
-    max-width: 500px;
-    background: linear-gradient(#34c0d6, #d5f3f7);
+    max-width: 100%;
+    background: linear-gradient(#34c0d6, #94a0ac);
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -59,6 +59,7 @@ body {
 
 #corregir {
     background-color: #fff;
+    font-family: 'Montserrat';
     border: none;
     font-size: 18px;
     border: 1px solid #000;
@@ -69,7 +70,8 @@ body {
 }
 
 #corregir:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    color: green;
 }
 
 .activado {
@@ -85,7 +87,7 @@ i {
 }
 
 #msj_correccion {
-    text-align: left;
+    text-align: center;
 }
 
 .fa-face-frown {
